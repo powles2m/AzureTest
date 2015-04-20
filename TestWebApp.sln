@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApp", "TestWebApp\TestWebApp.csproj", "{CCB49340-5CFC-4304-9833-1E795E2FB7B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{3F3C0E55-FD25-48C2-99FF-C3F66FB954EC}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{06D831F2-3A97-489C-9E8A-6EEBD125B8D2}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\TestWebApp-WAWS-dev.json = PublishScripts\Configurations\TestWebApp-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{739392D3-0F90-49F2-A6C2-80795CD7A460}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCB49340-5CFC-4304-9833-1E795E2FB7B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB49340-5CFC-4304-9833-1E795E2FB7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB49340-5CFC-4304-9833-1E795E2FB7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB49340-5CFC-4304-9833-1E795E2FB7B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06D831F2-3A97-489C-9E8A-6EEBD125B8D2} = {3F3C0E55-FD25-48C2-99FF-C3F66FB954EC}
+	EndGlobalSection
+EndGlobal

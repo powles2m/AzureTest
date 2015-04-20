@@ -1,0 +1,20 @@
+{
+    "environmentSettings": {
+        "webSite": {
+            "name": "TestWebApp1047",
+            "location": "Australia Southeast"
+        },
+        "databases": [
+            {
+                "connectionStringName": "",
+                "databaseName": "",
+                "serverName": "",
+                "user": "",
+                "password": "",
+                "edition": "",
+                "size": "",
+                "collation": ""
+            }
+        ]
+    }
+}
